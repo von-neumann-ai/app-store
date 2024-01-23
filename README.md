@@ -10,11 +10,15 @@ Well duh.
 
 ## Gitea
 
-Light weight github server
+Light weight github alternative
 
 ## Plane
 
 Simple jira alternative
+
+## OHIF dicom viewer
+
+A simple medical imaging viewer
 
 # Benchmarks
 
