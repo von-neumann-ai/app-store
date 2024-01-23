@@ -18,6 +18,7 @@ Simple jira alternative
 
 # Benchmarks
 
+```
 CONTAINER ID   NAME                      CPU %     MEM USAGE / LIMIT     MEM %     NET I/O           BLOCK I/O         PIDS
 2eb8b2765c57   gitea                     0.25%     92.89MiB / 31.04GiB   0.29%     259kB / 198kB     0B / 103MB        26
 c068041b2cff   gitea-db-1                0.00%     26.65MiB / 31.04GiB   0.08%     202kB / 254kB     12.3kB / 1.59MB   9
@@ -30,3 +31,4 @@ c511ed35cdc0   plane-app-api-1           0.62%     295MiB / 31.04GiB     0.93%  
 ded80488cb09   plane-app-plane-minio-1   0.07%     125.5MiB / 31.04GiB   0.39%     40kB / 9.59kB     27.9GB / 67.7MB   21
 eaab7a804c1e   plane-app-plane-db-1      0.00%     54.37MiB / 31.04GiB   0.17%     7.59MB / 9.07MB   13.4GB / 130MB    7
 c624db979c4e   plane-app-plane-redis-1   0.29%     3.637MiB / 31.04GiB   0.01%     4.81MB / 4.4MB    10.9GB / 1.35MB   5
+```
