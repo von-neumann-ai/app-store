@@ -10,15 +10,19 @@ Well duh.
 
 ## Gitea
 
-Light weight github alternative
+Light weight github alternative. 3000
 
 ## Plane
 
-Simple jira alternative
+Simple jira alternative. 3001
+
+## TheLounge
+
+IRC chat application for developers. 3002
 
 ## OHIF dicom viewer
 
-A simple medical imaging viewer
+A simple medical imaging viewer. 3003
 
 # Benchmarks
 

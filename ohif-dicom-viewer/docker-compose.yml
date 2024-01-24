@@ -11,7 +11,7 @@ services:
   ohif_viewer:
     image: ohif/viewer
     ports:
-      - 3001:80
+      - 3003:80
     environment: 
       - APP_CONFIG:/usr/share/nginx/html/app-config.js
     volumes:
