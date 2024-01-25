@@ -24,6 +24,10 @@ IRC chat application for developers. 3002
 
 A simple medical imaging viewer. 3003
 
+## Code Server
+
+VS Code Server. 3004
+
 # Benchmarks
 
 ```
