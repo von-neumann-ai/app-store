@@ -1,0 +1,19 @@
+version: '3'
+
+services:
+  postgres:
+    image: postgres:13.7
+    volumes:
+      - ./psql_data:/var/lib/postgresql/data
+    env_file:
+      - .env.gen
+  keycloak:
+    build: .
+    env_file:
+      - .env.gen
+    command:
+      - "start --optimized"
+    ports:
+      - 3006:8443
+    depends_on:
+      - postgres

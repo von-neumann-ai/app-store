@@ -28,6 +28,14 @@ A simple medical imaging viewer. 3003
 
 VS Code Server. 3004
 
+## Outline
+
+A simple notion clone. 3005
+
+## Keycloak
+
+Authentication server. 3006
+
 # Benchmarks
 
 ```
@@ -46,3 +54,12 @@ ded80488cb09   plane-app-plane-minio-1           0.02%     125.6MiB / 31.04GiB  
 eaab7a804c1e   plane-app-plane-db-1              0.00%     54.38MiB / 31.04GiB   0.17%     7.76MB / 9.23MB   13.4GB / 130MB    7
 c624db979c4e   plane-app-plane-redis-1           0.29%     3.582MiB / 31.04GiB   0.01%     5.24MB / 4.81MB   10.9GB / 1.36MB   5
 ```
+
+References:
+1. https://github.com/awesome-selfhosted/awesome-selfhosted
+2. https://docs.linuxserver.io/images/docker-adguardhome-sync/
+3. https://github.com/JamesTurland/JimsGarage
+
+
+TODO:
+1. Consider moving to Guix for full fledged scripting
